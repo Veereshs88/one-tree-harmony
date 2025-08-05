@@ -1,0 +1,135 @@
+{
+  "restaurant": {
+    "name": "One Tree Grill",
+    "description": "Elegant New Zealand dining with locally sourced ingredients",
+    "location": "Auckland, New Zealand",
+    "cuisine_type": "Modern New Zealand"
+  },
+  "menu": {
+    "appetizers": [
+      {
+        "id": "oysters_6",
+        "name": "Te Matuku Oysters (6)",
+        "price": 42,
+        "description": "natural with chardonnay vinegar, or tempura with lemon aioli",
+        "dietary": ["gluten-free"],
+        "category": "appetizer"
+      },
+      {
+        "id": "beetroot_salad",
+        "name": "Roasted Beetroot Salad",
+        "price": 24,
+        "description": "goat cheese, candied walnuts, honey vinaigrette",
+        "dietary": ["vegetarian", "gluten-free"],
+        "category": "appetizer"
+      },
+      {
+        "id": "lamb_carpaccio",
+        "name": "Lamb Carpaccio",
+        "price": 28,
+        "description": "herb crust, capers, lemon oil, parmesan",
+        "dietary": ["gluten-free"],
+        "category": "appetizer"
+      }
+    ],
+    "mains": [
+      {
+        "id": "ribeye_steak",
+        "name": "Grass-Fed Ribeye",
+        "price": 54,
+        "description": "300g, garlic butter, seasonal vegetables",
+        "dietary": ["gluten-free"],
+        "category": "main"
+      },
+      {
+        "id": "salmon_fillet",
+        "name": "King Salmon Fillet",
+        "price": 42,
+        "description": "miso glaze, bok choy, jasmine rice",
+        "dietary": ["gluten-free"],
+        "category": "main"
+      },
+      {
+        "id": "mushroom_risotto",
+        "name": "Wild Mushroom Risotto",
+        "price": 32,
+        "description": "truffle oil, parmesan, fresh herbs",
+        "dietary": ["vegetarian"],
+        "category": "main"
+      },
+      {
+        "id": "duck_breast",
+        "name": "Roasted Duck Breast",
+        "price": 48,
+        "description": "cherry glaze, potato gratin, green beans",
+        "dietary": ["gluten-free"],
+        "category": "main"
+      }
+    ],
+    "desserts": [
+      {
+        "id": "chocolate_tart",
+        "name": "Dark Chocolate Tart",
+        "price": 18,
+        "description": "salted caramel, vanilla ice cream",
+        "dietary": ["vegetarian"],
+        "category": "dessert"
+      },
+      {
+        "id": "pavlova",
+        "name": "Classic Pavlova",
+        "price": 16,
+        "description": "seasonal berries, passionfruit coulis",
+        "dietary": ["vegetarian", "gluten-free"],
+        "category": "dessert"
+      }
+    ],
+    "wines": [
+      {
+        "id": "sauvignon_blanc",
+        "name": "Marlborough Sauvignon Blanc",
+        "price": 52,
+        "description": "crisp, citrus notes, perfect with seafood",
+        "dietary": ["vegetarian", "gluten-free"],
+        "category": "wine",
+        "wine_type": "white"
+      },
+      {
+        "id": "pinot_noir",
+        "name": "Central Otago Pinot Noir",
+        "price": 68,
+        "description": "elegant, cherry and spice, pairs well with lamb",
+        "dietary": ["vegetarian", "gluten-free"],
+        "category": "wine",
+        "wine_type": "red"
+      },
+      {
+        "id": "chardonnay",
+        "name": "Hawke's Bay Chardonnay",
+        "price": 58,
+        "description": "oak aged, buttery finish, complements rich dishes",
+        "dietary": ["vegetarian", "gluten-free"],
+        "category": "wine",
+        "wine_type": "white"
+      }
+    ],
+    "cocktails": [
+      {
+        "id": "nz_old_fashioned",
+        "name": "New Zealand Old Fashioned",
+        "price": 18,
+        "description": "manuka honey, native botanicals, premium whiskey",
+        "dietary": ["vegetarian", "gluten-free"],
+        "category": "cocktail"
+      },
+      {
+        "id": "kumara_martini",
+        "name": "Kumara Espresso Martini",
+        "price": 16,
+        "description": "coffee liqueur, kumara syrup, premium vodka",
+        "dietary": ["vegetarian"],
+        "category": "cocktail"
+      }
+    ]
+  }
+}
